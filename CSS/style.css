@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(244, 244, 255);
+}
+
+
+/* Navbar */
+
+nav {
+    background-color: #3F3D56;
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(239, 238, 255);
+}
+
+.nav-link {
+    font-size: 14px;
+    color: rgb(239, 238, 255);
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.btn-nav {
+    border: 3px solid #FFBA00;
+    color: #FFBA00;
+    width: 100%;
+    font-size: 14px;
+}
+
+.btn-nav:hover {
+    color: #FFBA00;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    background-color: #3F3D56;
+    margin-bottom: 70px;
+}
+
+.navbar-toggler {
+    color: rgb(239, 238, 255);
+    font-size: 30px;
+}
+
+
+/* Akhir Navbar */
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    margin-top: 70px;
+}
+
+.jumbotron .lead {
+    margin-top: 230px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.jumbotron p {
+    text-align: center;
+}
+
+.btn-jumbotron {
+    display: inline-block;
+    background-color: #3F3D56;
+    color: #FFBA00;
+    height: 35px;
+    width: 90px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-jumbotron:hover {
+    color: #FFBA00;
+}
+
+.image-welcome img {
+    width: 100%;
+    margin-top: -650px;
+}
+
+
+/* Akhir Jumbotron */
+
+
+/* Info-panel */
+
+.info-panel {
+    width: 100%;
+    background-color: #FFBA00;
+    margin-top: -32px;
+}
+
+.info-panel h1 {
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.row img {
+    display: block;
+    width: 150px;
+    height: 80px;
+    margin: auto;
+}
+
+.row h3 {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+.row p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 18px;
+}
+
+
+/* Akhir info-panel */
+
+
+/* Testimonial */
+
+.testimonial .figure img {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+
+section h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding: 50px;
+}
+
+.swiper-slide {
+    box-sizing: border-box;
+    padding: 18px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    filter: blur(2px);
+    opacity: 0.4;
+}
+
+.swiper-slide-active {
+    transition-duration: 2s;
+    filter: blur(0px);
+    border-radius: 5px;
+    background-color: rgb(236, 236, 250);
+    box-shadow: 4px 4px 7px rgb(217, 239, 245);
+    opacity: 1;
+}
+
+section .testimonial-page .content h2 {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+section .testimonial-page .content p {
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+section .image-Box img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 13px;
+}
+
+
+/* Akhir Testimonial */
+
+
+/* Footer */
+
+footer {
+    background-color: #FFBA00;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sosmed {
+    font-size: 30px;
+    color: #3F3D56;
+    letter-spacing: 15px;
+}
+
+.sosmed:hover {
+    color: #353447;
+    transition: all 0.5s;
+}
+
+
+/* Footer */
+
+@media (min-width: 992px) {
+    /* Navbar */
+    /* Navbar */
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .btn {
+        border: 3px solid #FFBA00;
+        text-transform: uppercase;
+        border-radius: 12px;
+    }
+    .btn-nav {
+        border: 3px solid #FFBA00;
+        background-color: #3F3D56;
+    }
+    .btn-nav:hover {
+        color: #ffc934;
+    }
+    .nav-link:hover {
+        color: rgb(172, 171, 180);
+    }
+    /* Akhir Navbar */
+    /* Jumbotron */
+    .jumbotron {
+        margin-top: -90px;
+        height: 620px;
+        width: 1320px;
+    }
+    .jumbotron .lead {
+        margin-top: 163px;
+        font-size: 48px;
+        margin-left: 60px;
+        text-align: left;
+    }
+    .jumbotron p {
+        margin-left: 60px;
+        text-align: left;
+    }
+    .btn-jumbotron {
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-left: 85px;
+        border: 3px solid #3F3D56;
+        border-radius: 7px;
+    }
+    .cf::after {
+        clear: both;
+    }
+    .image-welcome img {
+        float: right;
+        width: 950px;
+        height: 400px;
+        margin-top: -290px;
+    }
+    /* Akhir jumbotron */
+    /* Info-panel */
+    .info-panel {
+        margin-top: -32px;
+        margin-left: 18px;
+    }
+    .info-panel h1 {
+        margin-top: 34px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .row img {
+        margin-top: 53px;
+        display: flex;
+        width: 180px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .row h3,
+    p {
+        text-align: center;
+    }
+    .row h3 {
+        margin-top: 38px;
+        font-size: 28px;
+    }
+    .row p {
+        margin-left: 29px;
+        margin-top: 21px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    /* Akhir info-panel */
+    /* Testimonial */
+    section h1 {
+        font-size: 40px;
+    }
+    .swiper-slide {
+        width: 400px;
+    }
+    section .image-Box img {
+        width: 100px;
+        height: 100px;
+    }
+    /* Akhir Testimonial */
+}

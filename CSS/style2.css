@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(244, 244, 255);
+}
+
+
+/* Navbar */
+
+nav {
+    background-color: #3F3D56;
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(239, 238, 255);
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.btn-nav {
+    color: #FFBA00;
+    width: 100%;
+    font-size: 14px;
+    background-color: #3F3D56;
+    border: 3px solid #FFBA00;
+}
+
+.btn-nav:hover {
+    color: #FFBA00;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    background-color: #3F3D56;
+    margin-bottom: 70px;
+}
+
+.navbar-toggler {
+    color: rgb(239, 238, 255);
+    font-size: 30px;
+}
+
+
+/* Akhir Navbar */
+
+
+/* Kolom */
+
+.Box {
+    margin: 125px 30px 30px 30px;
+}
+
+.Box-item:hover {
+    box-shadow: 8px 8px 10px rgb(54, 53, 53);
+    transition: all 0.5s;
+}
+
+.Box-item {
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Box-item .image-Bx {
+    width: 100px;
+    height: 97px;
+    background-color: rgb(158, 158, 163);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.text-Bx {
+    padding: 3px 10px;
+    flex: 5;
+}
+
+.text-Bx h3:hover {
+    cursor: pointer;
+}
+
+.see {
+    display: flex;
+}
+
+.see p {
+    margin: 0 15px 0 15px;
+}
+
+.see .fa-share-alt:hover {
+    cursor: pointer;
+}
+
+
+/* Akhir kolom */
+
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    background-color: #FFBA00;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sosmed {
+    font-size: 30px;
+    color: #3F3D56;
+    letter-spacing: 15px;
+}
+
+.sosmed:hover {
+    color: #353447;
+    transition: all 0.5s;
+}
+
+
+/* Akhir Footer */
+
+@media (min-width: 992px) {
+    /* Navbar */
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .btn {
+        border: 3px solid #FFBA00;
+        text-transform: uppercase;
+        border-radius: 12px;
+    }
+    .btn-nav {
+        border: 3px solid #FFBA00;
+        background-color: #3F3D56;
+    }
+    .btn-nav:hover {
+        color: #ffc934;
+    }
+    /* Akhir Navbar */
+}
