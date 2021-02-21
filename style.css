@@ -226,6 +226,7 @@ footer {
 .sosmed:hover {
     color: #353447;
     transition: all 0.5s;
+    text-shadow: 2px 2px 4px black;
 }
 
 

@@ -106,7 +106,14 @@ header {
     font-size: 15px;
     text-decoration: none;
     color: #FFBA00;
-    margin: auto;
+    align-self: center;
+    transition: all 0.5s;
+}
+
+.header a:hover {
+    cursor: pointer;
+    color: #dba101;
+    transition: all 0.5s;
 }
 
 
@@ -131,13 +138,14 @@ header {
     height: 200px;
     background-color: #fff;
     margin: 0 5px;
+    transition: 0.3s;
 }
 
-.image-Bx {
-    background-color: rgb(158, 158, 163);
-    border-radius: 5px 5px 0 0;
-    width: 148px;
-    height: 125px;
+.image-Bx img {
+    border-radius: 10px 10px 0 0;
+    width: 150px;
+    height: 115px;
+    padding: 15px 0;
 }
 
 .text-Bx {
@@ -179,11 +187,13 @@ footer {
     font-size: 30px;
     color: #3F3D56;
     letter-spacing: 15px;
+    transition: all 0.5s;
 }
 
 .sosmed:hover {
     color: #353447;
     transition: all 0.5s;
+    text-shadow: 2px 2px 4px black;
 }
 
 
@@ -225,9 +235,11 @@ footer {
         width: 200px;
         height: 275px;
     }
-    .image-Bx {
-        width: 197px;
-        height: 200px;
+    .image-Bx img {
+        padding: 10px;
+        border-radius: 10px;
+        width: 187px;
+        height: 210px;
     }
     /* Akhir box item */
 }
